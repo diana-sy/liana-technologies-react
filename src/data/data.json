@@ -1,0 +1,24 @@
+{
+    "counts": [{
+        "id":1,
+        "label": " Clients",
+        "image": "bag.png",
+        "number": "3000",
+        "duration": "2"
+    }, 
+    {
+        "id":2,
+        "label": " Employees",
+        "image":"face.png",
+        "number":"180",
+        "duration":"2"
+    },
+   { 
+       "id":3,
+       "label":" Daily users",
+       "image":"glob.png",
+       "number":"10000",
+       "duration":"2"
+   }           
+            
+]}
