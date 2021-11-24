@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.css';
 import Parallax from './Parallax.js';
 import UserSection from './UserSection';
-import Count from './Count';
+import Count from '../AnimatedNumbers/Count';
 import data from '../data/data.json';
 
 export default function Header (){
@@ -44,14 +44,6 @@ export default function Header (){
       </div>
 
       <UserSection />
-    
-      {/* <Count/> */}
-
-      {/* <div className={ styles.presentationModeGrid }>
-      {
-        props.items.map(item => <Count key={item.id} {...item} />)
-      }
-      </div> */}
       <div className={styles.count}>
       {data.counts.map(count => <Count key={count.id} data={count}/>)}
     </div>

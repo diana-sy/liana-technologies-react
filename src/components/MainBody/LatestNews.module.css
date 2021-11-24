@@ -1,0 +1,117 @@
+.dataNews{ 
+    background-color: rgb(236, 236, 236);
+    justify-content:center;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    gap: 2%;
+  }
+  
+  .newsTitle{ 
+    display:flex;
+    justify-content:center;
+    background-color: rgb(236, 236, 236);
+    margin-bottom:-20px;
+    padding-top:2%;
+    padding-bottom: 2%;
+    font-size: 22px;
+    
+  }
+  
+  .newsBox{ 
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content:center;
+    height: 150px;
+    width: 300px;
+    padding: 1%;
+    border:1px solid rgb(201, 195, 195);
+    border-radius:4px;
+  }
+  
+  .newsDate{
+    color:hsl(0deg 1% 49%);
+    font-size: 13px;
+  }
+  .newsText{
+  font-size:19px;
+  padding-top:1.5%;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  {
+    .dataNews{ 
+        display:flex;
+        flex-direction: column;
+    }
+    .latestNewsContainer{
+        background-color: rgb(236, 236, 236);
+        width: 100%;
+    }
+    .newsTitle{
+        font-size:15px;
+        padding:5%
+    }
+    .newsBox{
+        height: 70px;
+        width:70%;
+        padding:2%;
+        margin-left:15%
+        
+    }
+    .newsDate{
+        font-size: 8px;
+    }
+    .newsText{
+        font-size:10px;
+     }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .dataNews{ 
+        display:flex;
+        flex-direction: column;
+    }
+    .newsBox{
+        height: 90px;
+        width:70%;
+        padding:2%;
+        margin-left:15%  
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .dataNews{ 
+        justify-content:center;
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        padding-bottom: 3%;
+        padding-top: 2%;
+        gap: 2%;
+      }
+    .newsBox{
+        display:flex;
+        flex-direction: column;
+        height: 150px;
+        width: 250px;
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .newsBox{
+        height: 150px;
+        width: 320px;
+    }
+    .newsTitle{
+        font-size:30px;
+    }
+    .newsDate{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,18 @@
+{"news": [
+    {
+        "id": 1,
+        "date": "27.01.2016",
+        "description":"Liana Technologies and Encode Solutions merge to create unique mobile solution"
+    },
+    {
+        "id": 2,
+        "date": "28.01.2016",
+        "description":"From a local startup to a global player: Liana Technologies among the forerunners of digital marketing tachnology"
+    },
+    {
+        "id": 3,
+        "date": "02.07.2015",
+        "description":"Liana Technologies Hong Kong launched a series of digital marketing events in June"
+    }
+    ]
+}

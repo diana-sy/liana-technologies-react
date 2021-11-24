@@ -20,7 +20,7 @@ export default function Parallax() {
   return (
     <div className={styles.parallax}>
       <section className={styles.hero}>
-        <img
+        <img className={styles.img}
           src="https://www.lianatech.com/media/hero-images/cache/marketing-technology-stack-1920x500,c,q=85.jpg"
           alt="test"
           style={{

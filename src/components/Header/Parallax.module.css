@@ -30,4 +30,32 @@
     height: 200vh;
   }
   
-  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  { 
+ 
+.img{
+  height: 140px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.img{
+  height: 250px;
+}
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img{
+    height: 300px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .img{
+    height: 400px;
+  }
+}

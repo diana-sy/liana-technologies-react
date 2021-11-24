@@ -47,12 +47,6 @@ const Count = props => {
           </div>
           </div>
         
-          /* <div className={ styles.productContainer }>
-          <div><img src={`../images/${props.image}`} alt=""/></div>
-        <h3>
-          <i>{image}{label}: {count}</i>
-        </h3>
-      </div> */
     );
   }
   

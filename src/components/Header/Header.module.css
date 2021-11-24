@@ -1,0 +1,290 @@
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items:center;
+    gap: 10px;
+    padding: 2%;
+    background-color:green;
+    height: 5px;
+    color:white;
+}
+.languegeBar{
+    padding-right: 12%;
+}
+.btnDropdownMenu{
+    background-color:white;
+    border:1px solid gray;
+    border-radius: 4px;
+    height: 27px;
+    width: 150%;
+    text-align:start;
+}
+
+.top{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content:center;
+    /* padding-left: 5%;*/
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    align-items:center;
+    
+}
+
+.logo{ 
+    display:flex;
+    justify-content: flex-start;
+    align-items:start;
+    height:40px;
+    
+}
+.topMenu{ 
+    display:flex;
+    gap:10px;
+    color: #b6b3b3de;
+    padding-left: 2%;
+    padding-right: 25%;
+    width: 100%;
+}
+.search{ 
+    display:flex;
+    gap:5px;
+    padding-right: 10%;
+}
+.searchBox{ 
+    border:0.5px solid rgba(189, 188, 188, 0.87);
+    border-radius: 4px;
+    height: 22px;
+   
+    
+}
+.searchButton{ 
+    height: 26px;
+    border:1px solid green;
+    border-radius: 4px;
+    background-color:green;
+    color:white;
+
+}
+
+/*parallax*/
+.parallax{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top:15%;
+}
+.parallaxText{ 
+    color:white;
+    justify-content:center;
+    font-size: xx-large;
+  }
+  .btnLearnMore{
+    border:1px solid green;
+    border-radius: 4px;
+    background-color:green;
+    color:white;
+    height:35px;
+  }
+
+  .userSection{
+      width:100%;
+      
+  }
+
+  /*counter*/
+
+  .count{
+      display: flex;
+      flex-direction: row;
+      gap:2%;
+      justify-content:center;
+      margin-top:4%;
+
+  }
+  /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  { 
+    
+  /* Top  */
+  .nav{
+      height: auto;
+      width:100%;
+      font-size: 10px;
+      
+  }
+  /* Dropdown */
+  .languegeBar{
+      height: auto;
+      padding-right: 5%;
+  }
+  .btnDropdownMenu{
+      font-size:10px;
+      height: auto;
+      background-size: auto;
+      width: auto;
+  }
+  /* Logo */
+  .top{
+      font-size: 10px;
+      gap:1%;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      
+  }
+  .topMenu{
+      gap:4%;
+      justify-content:center;
+      padding: 2%;
+  }
+  .search{
+      height:auto;
+      padding:1%;      
+  }
+  .searchBox{
+    height: 15px;
+    width: 100px;
+  }
+  .searchButton{
+      height:auto;
+  }
+  /* Parallax  */
+  .parallax{
+    margin-top:8%;
+  }
+  .parallaxText{
+    display:flex;
+    justify-content:center;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.btnLearnMore{
+    height: 30px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+/* Top  */
+.nav{
+    height: auto;
+    width:100%;
+    font-size: 15px;
+    
+}
+/* Dropdown */
+.btnDropdownMenu{
+    font-size:15px;
+    height: auto;
+    background-size: auto;
+    width: auto;
+}
+/* Logo */
+.top{
+    font-size: 15px;
+    gap:1%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    
+}
+.logo{
+    height: 50px;;
+}
+.topMenu{
+    gap:4%;
+    justify-content:center;
+    padding: 2%;
+}
+.search{
+    height:auto;
+    padding:1%;      
+}
+.searchBox{
+  height: 25px;
+  width: auto;
+}
+.searchButton{
+    height:auto;
+}
+/* Parallax  */
+.parallaxText{
+  font-size: 35px;
+  padding-bottom: 2%;
+}
+.btnLearnMore{
+  height: 35px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav{
+        font-size: 20px;  
+    }
+    /* Dropdown */
+.btnDropdownMenu{
+    font-size:20px;
+}
+   /* Logo */
+.top{
+    font-size: 15px;
+    gap:1%;
+    display:flex;
+    flex-direction: row;
+    
+}
+/* Parallax  */
+.parallaxText{
+    font-size: xxx-large;
+    padding-bottom: 2%;
+  }
+  .btnLearnMore{
+    height: 35px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav{
+        font-size: 23px;  
+    }
+    /* Dropdown */
+.btnDropdownMenu{
+    font-size:23px;
+}
+   /* Logo */
+.top{
+    font-size: 20px;
+    gap:1%;
+}
+.logo{
+    height: 70px;
+    margin-left: 5%;
+}
+.searchBox{
+    height: 45px;
+    width: 300px;
+    font-size: 20px;
+  }
+  .searchButton{ 
+      width: 30%;
+      font-size: 20px;
+  }
+  /* Parallax  */
+  .parallax{
+    margin-top:12%;
+  }
+.parallaxText{
+    font-size: 65px;
+    padding-bottom: 2%;
+  }
+  .btnLearnMore{
+    height: 65px;
+    font-size: 30px;
+  }
+}
