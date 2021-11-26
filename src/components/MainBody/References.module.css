@@ -1,0 +1,206 @@
+
+.reference{
+    display:flex;
+    justify-content:center;
+}
+.refData{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+    gap:2%;
+    padding-top: 3%;
+}
+.refBox{
+    border-radius: 4px;
+    border:1px solid rgb(201, 195, 195);
+    padding:1%;
+    justify-content:center;
+    width:220px;
+    height:300px;
+    padding:1%;;
+    overflow:visible
+}
+.refImg{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    height:150px;
+    
+  }
+  .refBoxText{
+    display:flex;
+    flex-direction: column;
+    padding:1%;
+    border-left:1px solid rgb(201, 195, 195);
+  }
+.refName{
+  display:flex;
+  justify-content:center;
+  border-top:1px solid rgb(201, 195, 195);
+  width:100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size:20px;
+}
+.refDescription{
+    display:flex;
+    justify-content:center;
+    font-size:18px;
+    color:gray;
+    padding:2%;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  { 
+    .refData{
+        display:flex;
+        flex-direction: column;
+    }
+    .refBox{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+    .refImg{
+        display:flex;
+        justify-content:center;
+        width:50%;
+        height:90px;
+        
+      }
+      .refBoxText{
+          display:flex;
+          flex-direction: column;
+          padding:0.5%;
+          width: 50%;
+          border-left:1px solid rgb(201, 195, 195);
+      }
+    .refName{
+        display:flex;
+        justify-content:center;
+        font-size: 14px;
+        border-top:none;
+    }
+    .refDescription{
+        display:flex;
+        justify-content:center;
+        font-size: 10px;
+      }
+ }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .refData{
+        display:flex;
+        flex-direction: column;
+    }
+    .refBox{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+    .refImg{
+        display:flex;
+        justify-content:center;
+        width:50%;
+        height:120px;
+        
+      }
+      .refBoxText{
+          display:flex;
+          flex-direction: column;
+          padding:0.5%;
+          width: 50%;
+          border-left:1px solid rgb(201, 195, 195);
+      }
+    .refName{
+        display:flex;
+        justify-content:center;
+        font-size: 20px;
+        border-top:none;
+    }
+    .refDescription{
+        display:flex;
+        justify-content:center;
+        font-size: 15px;
+      }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .refData{
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-content:center;
+        gap:2%;
+        padding-top: 3%;
+    }
+    .refBox{
+        display:flex;
+        flex-direction: column;
+        border-radius: 4px;
+        border:1px solid rgb(201, 195, 195);
+        padding:1%;
+        width:220px;
+        height:300px;
+        
+    }
+    .refImg{
+        display:flex;
+        justify-content:center;
+        padding:0.6%;
+        width:100%;
+        height:100px;
+        
+      }
+      .refBoxText{
+        display:flex;
+        flex-direction: column;
+        padding:2%;
+        width:100%;
+        height:200px;
+        border-left:none;
+      }
+      .refName{
+        padding-top: 3%;
+        font-size: 24px;
+        border-top:1px solid rgb(201, 195, 195);
+    }
+    .refDescription{
+        font-size: 18px;
+      }
+     
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .refBox{
+        width:250px;
+        height:380px;
+        
+    }
+    .refImg{
+        padding:0%;
+        width:100%;
+        height:180px;
+        
+      }
+      .refBoxText{
+        display:flex;
+        flex-direction: column;
+        padding:2%;
+        width:100%;
+        height:200px;
+        border-left:none;
+      }
+      .refName{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 24px;
+        border-top:1px solid rgb(201, 195, 195);
+    }
+    .refDescription{
+        font-size: 20px;
+      }
+}

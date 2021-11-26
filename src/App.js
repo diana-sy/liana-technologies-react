@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import LatestNews from './components/MainBody/LatestNews';
-import data from './components/data/news.json';
+import References from './components/MainBody/References';
+import Subscribe from './components/Subscribe/Subscribe';
+import Bottom from './components/Bottom/Bottom';
 
 function App() {
   return (
@@ -10,6 +12,14 @@ function App() {
      <Header/>
 
     <LatestNews/>
+<div className="references">
+  <div className="refTitle"> References</div>
+    <References/>
+    </div>
+
+  <Subscribe/>
+
+  <Bottom/>
 </div>
   );
 }

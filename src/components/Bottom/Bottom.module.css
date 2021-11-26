@@ -1,0 +1,187 @@
+.bottomContainer{
+    background-color: black;
+    color:white;
+    
+  }
+  .bottomNav{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    padding:2%;
+    gap: 45%;
+  }
+  .lianaTitle{
+    font-size: 18px;
+    width:100%;
+  }
+  .bottomMenu{
+  display:flex;
+  align-self: center;
+  gap: 4%;
+  width: 100%;
+  padding-right: 2%;
+  font-size: 14px;
+  }
+  
+  .contactContainer{
+    padding:2%;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .containerInfo{
+    display:flex;
+    flex-direction: row;
+    gap:3%
+  }
+  .btnContactUs{
+    height:30px;
+    border-radius: 5px;
+    color:white;
+    background-color:green;
+    border-color: green;
+    align-self: end;
+  }
+  
+  .socialmedia{
+    display: flex;
+    justify-content:flex-end;
+    gap:2%
+  }
+  
+  .fab{
+    display:flex;
+    justify-content:center;
+    border-radius:50%;
+    background-color:green;
+    width: 26px;
+    height: 26px;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  {
+     .lianaTitle{
+        font-size: 17px;
+        padding: 2%;
+      }
+      .bottomNav{
+        display:flex;
+        flex-direction: column;
+      }
+      .bottomMenu{
+          display:flex;
+          justify-content:center;
+          font-size: 15px;
+      }
+      .containerInfo{
+        display:flex;
+        flex-direction: row;
+        font-size:16px;
+    }
+    .contactContainer{
+        gap:5%;
+    }
+    .btnContactUs{
+        height:40px;
+        font-size:16px;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content:center;
+        padding-top:10%;
+        gap:30%;
+        
+      }
+      .fab{
+        border-radius: 4px;
+            width: 100%;
+            height: 30 px;
+      }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .lianaTitle{
+        font-size: 24px;
+        padding: 2%;
+      }
+      .bottomNav{
+        display:flex;
+        flex-direction: row;
+        gap:1%
+      }
+      .bottomMenu{
+          font-size: 18px;
+      }
+      .containerInfo{
+        display:flex;
+        flex-direction: row;
+        font-size:18px;
+    }
+    .contactContainer{
+        gap:5%;
+    }
+    .btnContactUs{
+        height:47px;
+        font-size:20px;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content:center;
+        padding-top:10%;
+        gap:30%;
+        
+      }
+      .fab{
+        border-radius: 4px;
+        width: 100%;
+        height: 35px;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .lianaTitle{
+        font-size: 25px;
+    }
+    .bottomNav{
+        gap:5%
+    }
+    .containerInfo{
+        font-size: 20px;
+    }
+    .btnContactUs{
+        width: 150px;
+        border-radius: 10px;
+        height: 45px;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content:flex-end;
+        gap:2%;
+        padding-right: 9%;
+        padding-bottom: 7%;
+        padding-top:0%;
+      }
+      .fab{
+        border-radius:50%;
+        width: 26px;
+        height: 26px;
+
+      }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bottomNav{
+        gap:19%
+    }
+    .fab{
+        border-radius:50%;
+        width: 40px;
+        height: 40px;
+        font-size:25px
+
+      }
+}

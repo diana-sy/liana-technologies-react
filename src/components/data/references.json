@@ -1,0 +1,26 @@
+{"references":[
+    {
+        "id":1,
+        "image": "bosch.png",
+       "name":"Robert Bosch",
+        "description":"Bosch is a multinational engineering and electronics company."
+    },
+    {
+        "id": 2,
+        "image": "bodyShop.png",
+        "name":"The Body Shop",
+        "description":"The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries"
+    },
+    {
+        "id": 3,
+        "image": "laplandHotel.png",
+        "name":"Lapland Hotels",
+        "description":"Lapland Hotels is the largest and the most diverse hotel chain in Lapland"
+    },
+    {
+        "id": 4,
+        "image": "ikea.png",
+        "name":"IKEA",
+       "description":"IKEA is a multinational furniture store"
+    }]
+}

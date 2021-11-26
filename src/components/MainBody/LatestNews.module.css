@@ -59,7 +59,8 @@
         height: 70px;
         width:70%;
         padding:2%;
-        margin-left:15%
+        margin-left:15%;
+        padding-top:2%
         
     }
     .newsDate{
@@ -93,6 +94,7 @@
         padding-bottom: 3%;
         padding-top: 2%;
         gap: 2%;
+        font-size:16px;
       }
     .newsBox{
         display:flex;
@@ -112,6 +114,6 @@
         font-size:30px;
     }
     .newsDate{
-        font-size: 12px;
+        font-size: 16px;
     }
 }
