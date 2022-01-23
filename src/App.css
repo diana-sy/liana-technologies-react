@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 .refTitle{
     font-size:30px;
     display:flex;
