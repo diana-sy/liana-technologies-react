@@ -1,3 +1,3 @@
 # liana-technologies-react
 
-the project is on the branch -masterCancel changes
+the project is on the branch -master
